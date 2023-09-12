@@ -4,12 +4,13 @@ import List from "./components/List";
 import React from "react";
 import Table from "./components/Table";
 function App() {
+  const bikes = ["duke390", "cb unicorn", "vikrant"];
   return (
     <>
       {/* <Message />  */}
-      <List />
+      <List bikes={bikes} heading="Our Bikes" />
       <br />
-      <Table />
+      {/* <Table /> */}
     </>
   );
 }
