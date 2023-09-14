@@ -1,32 +1,33 @@
 
 function Table(){
     return(
-        <table class="table">
+        <table className="table">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Owner</th>
+      <th scope="col">Bike</th>
+      <th scope="col">Reg No</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Prince</td>
+      <td>Duke 390</td>
+      <td>BR1213</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Lokesh</td>
+      <td>Unikorn</td>
+      <td>RL7684</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td >RVR</td>
+      <td>Vikrant</td>
+      <td>VN5693</td>
     </tr>
   </tbody>
 </table>

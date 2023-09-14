@@ -10,7 +10,7 @@ function App() {
       {/* <Message />  */}
       <List bikes={bikes} heading="Our Bikes" />
       <br />
-      {/* <Table /> */}
+      <Table />
     </>
   );
 }
